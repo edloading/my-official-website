@@ -58,11 +58,14 @@ $(window).ready(function () {
             $("#cks").css("opacity", "1");
         }, 700);
         setTimeout(function () {
-            $("#wolm").css("opacity", "1");
+            $("#lcdhf").css("opacity", "1");
         }, 900);
         setTimeout(function () {
-            $("#balh").css("opacity", "1");
+            $("#wolm").css("opacity", "1");
         }, 1100);
+        setTimeout(function () {
+            $("#balh").css("opacity", "1");
+        }, 1300);
     });
 
     // If "About Me" is clicked
@@ -133,10 +136,13 @@ $(window).scroll(function () {
             $("#cks").css("opacity", "1");
         }, 700);
         setTimeout(function () {
-            $("#wolm").css("opacity", "1");
+            $("#lcdhf").css("opacity", "1");
         }, 900);
         setTimeout(function () {
-            $("#balh").css("opacity", "1");
+            $("#wolm").css("opacity", "1");
         }, 1100);
+        setTimeout(function () {
+            $("#balh").css("opacity", "1");
+        }, 1300);
     }
 });

@@ -47,25 +47,31 @@ $(window).ready(function () {
             $("#portfolio").fadeIn(400);
         }, 800);
         
-        // Fade in boxes
+        // Elegant fade in Portfolio Showcase
         setTimeout(function () {
-            $("#pink").css("opacity", "1");
+            $("#sayless").css("opacity", "1");
         }, 200);
         setTimeout(function () {
-            $("#wheaton").css("opacity", "1");
+            $("#mercuri").css("opacity", "1");
         }, 500);
         setTimeout(function () {
-            $("#cks").css("opacity", "1");
+            $("#pink").css("opacity", "1");
         }, 700);
         setTimeout(function () {
-            $("#lcdhf").css("opacity", "1");
+            $("#wheaton").css("opacity", "1");
         }, 900);
         setTimeout(function () {
-            $("#wolm").css("opacity", "1");
+            $("#cks").css("opacity", "1");
         }, 1100);
         setTimeout(function () {
-            $("#balh").css("opacity", "1");
+            $("#lcdhf").css("opacity", "1");
         }, 1300);
+        setTimeout(function () {
+            $("#wolm").css("opacity", "1");
+        }, 1500);
+        setTimeout(function () {
+            $("#balh").css("opacity", "1");
+        }, 1700);
     });
 
     // If "About Me" is clicked
@@ -125,24 +131,30 @@ $(window).scroll(function () {
         return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
     }
     // When Portfolio Showcase comes, fade in each box one by one
-    if (elementScrolled('.showcase')) {
+    /*if (elementScrolled('.showcase')) {
         setTimeout(function () {
-            $("#pink").css("opacity", "1");
+            $("#sayless").css("opacity", "1");
         }, 200);
         setTimeout(function () {
-            $("#wheaton").css("opacity", "1");
+            $("#mercuri").css("opacity", "1");
         }, 500);
         setTimeout(function () {
-            $("#cks").css("opacity", "1");
+            $("#pink").css("opacity", "1");
         }, 700);
         setTimeout(function () {
-            $("#lcdhf").css("opacity", "1");
+            $("#wheaton").css("opacity", "1");
         }, 900);
         setTimeout(function () {
-            $("#wolm").css("opacity", "1");
+            $("#cks").css("opacity", "1");
         }, 1100);
         setTimeout(function () {
-            $("#balh").css("opacity", "1");
+            $("#lcdhf").css("opacity", "1");
         }, 1300);
-    }
+        setTimeout(function () {
+            $("#wolm").css("opacity", "1");
+        }, 1500);
+        setTimeout(function () {
+            $("#balh").css("opacity", "1");
+        }, 1700);
+    } */
 });

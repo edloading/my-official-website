@@ -366,7 +366,7 @@ button:active {
 /* / End of: Portfolio section / */
 
 
-/* What Do I Do? section */
+/* About Me section */
 #what-do-i-do h1 {
     margin-bottom: 80px;
 }
@@ -478,15 +478,19 @@ me {
 }
 .skills td {
     font-weight: 500;
-    opacity: 0.4;
+    opacity: 1;
+    color: white;
     transition: 400ms;
     font-size: 24px;
     border: none;
     padding: 20px;
 }
+
+#html:hover{color:#e67e22;} #wordpress:hover{color:#2980b9;} #ecommerce:hover{color:#2ecc71;} #js:hover{color:#f1c40f;} #java:hover{color:#34495e;} #python:hover{color:#1abc9c;} #photoshop:hover{color:#16a085;} #socialmedia:hover{color:#9b59b6;} #videoedit:hover{color:#e74c3c;}
+
 .skills td:hover {
-    opacity: 1;
-    color: #fff2ac;
+    //opacity: 1;
+    //color: #fff2ac;
 }
 
 .skills p {

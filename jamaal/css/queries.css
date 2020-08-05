@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1196px) {
+    #home-logo {
+        margin-top: -90px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #vid-gal video {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #nav-bar {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    #home-logo {
+        margin-top: -50px !important;
+    }
+}
+
+@media only screen and (max-width: 553px) {
+    #vid-gal video {
+        width: 83%;
+    }
+}

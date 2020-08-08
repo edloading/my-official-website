@@ -1,18 +1,18 @@
 /** FONTS **/
 @font-face {
     font-family: "Gotham";
-    src: url("../fonts/gotham/Gotham-Black.ttf") format("ttf"),
-         url("../fonts/gotham/GothamBook.ttf") format("ttf"),
-         url("../fonts/gotham/Gotham-BookItalic.ttf") format("ttf");
+    src: url("https://eddiescott.co/jamaal/fonts/gotham/Gotham-Black.ttf") format("ttf"),
+        url("https://eddiescott.co/jamaal/fonts/gotham/GothamBook.ttf") format("ttf"),
+        url("https://eddiescott.co/jamaal/fonts/gotham/Gotham-BookItalic.ttf") format("ttf");
     
     font-family: "Greve 800";
-    src: url("../fonts/greve/greve-800.otf") format("otf");
+    src: url("https://eddiescott.co/jamaal/fonts/greve/greve-800.otf") format("otf");
     
     font-family: "DS-Digital";
-    src: url("../fonts/ds/DS-DIGI.TTF") format("ttf"),
-         url("../fonts/ds/DS-DIGIB.TTF") format("ttf"),
-         url("../fonts/ds/DS-DIGII.TTF") format("ttf"),
-         url("../fonts/ds/DS-DIGIT.TTF") format("ttf"),
+    src: url("https://eddiescott.co/jamaal/fonts/ds/DS-DIGI.TTF") format("ttf"),
+        url("https://eddiescott.co/jamaal/fonts/ds/DS-DIGIB.TTF") format("ttf"),
+        url("https://eddiescott.co/jamaal/fonts/ds/DS-DIGII.TTF") format("ttf"),
+        url("https://eddiescott.co/jamaal/fonts/ds/DS-DIGIT.TTF") format("ttf"),
 }
 
 body {

@@ -1,22 +1,5 @@
-/** FONTS **/
-@font-face {
-    font-family: "Gotham";
-    src: url("https://eddiescott.co/jamaal/fonts/gotham/Gotham-Black.ttf") format("ttf"),
-        url("https://eddiescott.co/jamaal/fonts/gotham/GothamBook.ttf") format("ttf"),
-        url("https://eddiescott.co/jamaal/fonts/gotham/Gotham-BookItalic.ttf") format("ttf");
-    
-    font-family: "Greve 800";
-    src: url("https://eddiescott.co/jamaal/fonts/greve/greve-800.otf") format("otf");
-    
-    font-family: "DS-Digital";
-    src: url("https://eddiescott.co/jamaal/fonts/ds/DS-DIGI.TTF") format("ttf"),
-        url("https://eddiescott.co/jamaal/fonts/ds/DS-DIGIB.TTF") format("ttf"),
-        url("https://eddiescott.co/jamaal/fonts/ds/DS-DIGII.TTF") format("ttf"),
-        url("https://eddiescott.co/jamaal/fonts/ds/DS-DIGIT.TTF") format("ttf"),
-}
-
 body {
-    font-family: Gotham !important
+    font-family: 'Gothic A1', sans-serif !important
 }
 
 /* NAV Bar */
@@ -27,7 +10,7 @@ body {
 
 #nav-title {
     color: white;
-    font-family: "Greve 800";
+    font-family: 'Teko', sans-serif;
     text-transform: uppercase;
     font-style: normal;
     color: #1d1d1d;
@@ -35,7 +18,8 @@ body {
 
 #nav-ul li {
     color: #1d1d1d !important;
-    font-family: Gotham;
+    font-size: 24px;
+    font-family: 'Teko', sans-serif;
     text-transform: uppercase;
     font-weight: 900 !important;
 }
@@ -66,7 +50,8 @@ body {
 }
 
 #welcome {
-    font-family: "DS-Digital";
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
     font-size: 50px;
 }
 
@@ -81,13 +66,14 @@ body {
     background: white;
     border: 3px solid #212121;
     padding: 18px 36px;
-    font-size: 17px;
+    font-size: 30px;
     letter-spacing: 5px;
     color: #212121;
     box-shadow: inset 0 0 0 0 #fff;
     -webkit-transition: ease-out 0.5s;
     -moz-transition: ease-out 0.5s;
     transition: ease-out 0.5s;
+    font-family: 'Teko', sans-serif;
 }
 
 #button:hover {
@@ -100,6 +86,11 @@ body {
 #overview {
     background-color: white !important;
     color: #1d1d1d;
+}
+
+#overview h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 52px;
 }
 
 .overview-detail p {
@@ -162,7 +153,8 @@ body {
 }
 
 #dev li:first-child {
-    font-size: 34px;
+    font-family: 'Teko', sans-serif;
+    font-size: 52px;
     font-style: italic;
     font-weight: 900;
 }
@@ -189,6 +181,11 @@ body {
     background-color: lightblue;
 }
 
+#book-title {
+    font-family: 'Teko', sans-serif;
+    font-size: 52px;
+}
+
 #book-me .wow {
     height: 400px;
 }
@@ -204,6 +201,7 @@ body {
 }
 
 #theprice {
+    font-family: 'Teko', sans-serif;
     background-color: white;
     margin: 0 auto;
     width: 70%;
@@ -214,6 +212,9 @@ body {
     padding-bottom: 20px !important;
     color: #212121;
     border-radius: 3px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-size: 42px;
 }
 
 #book-text {
@@ -240,7 +241,7 @@ body {
 }
 
 #book-number {
-    font-family: Gotham;
+    font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 700;
     text-align: center;
@@ -271,6 +272,11 @@ footer {
 #follow-me {
     text-align: center;
     z-index: 100;
+}
+
+#follow-me h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 52px;
 }
 
 .copyright-text {

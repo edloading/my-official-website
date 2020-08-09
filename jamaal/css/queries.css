@@ -26,4 +26,30 @@
     #vid-gal video {
         width: 83%;
     }
+    
+    #bg-vid {
+        display: none;
+    }
+    
+    .vid-overlay {
+        background-image: url(../images/mob-bg.jpg);
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #nav-title {
+        font-size: 20px;
+    }
+    
+    #overview h2 {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-height: 670px) {
+    #home-logo {
+        width: 400px;
+        margin-top: -60px !important;
+    }
 }

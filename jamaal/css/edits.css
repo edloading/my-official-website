@@ -9,7 +9,6 @@ body {
 }
 
 #nav-title {
-    color: white;
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
     font-style: normal;
@@ -28,7 +27,7 @@ body {
 #home {
     bottom: 0;
     position: relative;
-    z-index: 10000;
+    z-index: 1000;
     width: 100%;
 }
 

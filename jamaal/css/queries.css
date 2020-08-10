@@ -45,6 +45,30 @@
     #overview h2 {
         margin-top: 80px;
     }
+    
+    #book-me {
+        background-image: none !important;
+        background-color: #e8e8e8 !important;
+        color: #212121 !important;
+    }
+
+    #theprice {
+        background-color: #212121;
+        color: whitesmoke;
+    }
+
+    #book-text {
+        color: #212121;
+    }
+
+    #email-me {
+        border: 3px solid #212121;
+        color: #212121;
+    }
+
+    #sessions h4 {
+        color: #212121;
+    }
 }
 
 @media only screen and (max-height: 670px) {

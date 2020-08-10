@@ -118,19 +118,6 @@ body {
 #dev {
     background-color: #e8e8e8;
 }
-#dev h2 {
-    background-color: skyblue;
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px !important;
-    color: #212121;
-    //border: 3px solid #212121;
-    border-radius: 5px;
-}
 
 #dev ul {
     margin-top: 30px !important;
@@ -176,9 +163,6 @@ body {
 }
 
 /* BOOK ME Section ------------------------------------- */
-#book-me {
-    background-color: lightblue;
-}
 
 #book-title {
     font-family: 'Teko', sans-serif;
@@ -218,6 +202,7 @@ body {
 
 #book-text {
     color: whitesmoke;
+    font-weight: 500;
 }
 
 #email-me {
@@ -234,18 +219,19 @@ body {
     font-size: 16px;
     margin-bottom: 30px;
 }
+
 #email-me:hover {
     background-color: whitesmoke;
     color: #1d1d1d;
 }
 
 #book-number {
-    font-family: 'Gothic A1', sans-serif;
+    font-family: "Teko";
     font-style: normal;
     font-weight: 700;
     text-align: center;
     margin-top: -10px;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 #sessions {
@@ -258,10 +244,10 @@ body {
 }
 
 #sessions h4 {
-    font-size: 28px;
+    font-family: "Teko";
+    font-size: 48px;
     color: white;
 }
-
 
 /* FOOTER Section ------------------------------------- */
 footer {

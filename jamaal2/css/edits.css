@@ -33,6 +33,10 @@ body {
     font-weight: 900 !important;
 }
 
+.navbar-toggle {
+    z-index: 10000 !important;
+}
+
 /* HOME Section ------------------------------------- */
 #home {
     bottom: 0;

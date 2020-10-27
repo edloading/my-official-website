@@ -63,9 +63,6 @@
     }
 }
 
-@media only screen and (max-width: 670px) {
-}
-
 @media only screen and (max-width: 553px) {
     #vid-gal video {
         width: 83%;

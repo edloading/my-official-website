@@ -1,0 +1,130 @@
+@media only screen and (max-width: 991px) {
+    #nav-title {
+        position: fixed;
+        left: 15px;
+        top: 4px;
+    }
+    
+    #nav-ul {
+        //border: 2px solid black;
+        display: block;
+        margin: 0 auto;
+        position: fixed;
+        right: 0;
+    }
+    #nav-ul li {
+        font-size: 12px !important;
+    }
+    
+    #vid-gal video {
+        width: 70%;
+    }
+    
+    #home-logo {
+        margin-top: 60px !important;
+        margin-bottom: 100px !important;
+        width: 60%;
+    }
+    
+    .overview-detail {
+        border: 2px solid white;
+        display: block !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+    
+    td {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #overview td:last-child {
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    #nav-bar {
+        padding: 21px;
+    }
+    
+    #j-pic {
+        width: 300px;
+    }
+    
+    td:first-child {
+        height: 375px;
+    }
+    td:last-child {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+}
+
+@media only screen and (max-width: 553px) {
+    #vid-gal video {
+        width: 83%;
+    }
+    
+    #bg-vid {
+        display: none;
+    }
+    
+    .vid-overlay {
+        background-image: url(../images/mob-bg.jpg);
+        background-size: cover;
+        filter: brightness(0.4);
+    }
+    
+    #dev-header {
+        font-size: 33px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #nav-title {
+        font-size: 23px;
+    }
+    
+    #overview h2 {
+        margin-top: 80px;
+    }
+    
+    #book-me {
+        background-image: none !important;
+        background-color: #e8e8e8 !important;
+        color: #212121 !important;
+    }
+
+    #theprice {
+        background-color: #212121;
+        color: whitesmoke;
+    }
+
+    #book-text {
+        color: #212121;
+    }
+
+    #email-me {
+        border: 3px solid #212121;
+        color: #212121;
+    }
+
+    #sessions h4 {
+        color: #212121;
+    }
+}
+
+/* --- Height-Based Styles --- */
+
+@media only screen and (max-height: 670px) {
+    #home-logo {
+        width: 400px;
+        margin-top: -60px !important;
+    }
+}

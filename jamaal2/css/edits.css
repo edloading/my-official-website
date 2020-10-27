@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+
 body {
     font-family: 'Gothic A1', sans-serif !important
 }
@@ -17,7 +19,7 @@ body {
 }
 
 #nav-title {
-    font-family: 'Bahnschrift';
+    font-family: 'Bahnschrift', sans-serif;
     text-transform: uppercase;
     font-style: normal;
     color: #1d1d1d;
@@ -26,7 +28,7 @@ body {
 #nav-ul li {
     color: #1d1d1d !important;
     font-size: 18px;
-    font-family: 'Bahnschrift';
+    font-family: 'Bahnschrift', sans-serif;
     text-transform: uppercase;
     font-weight: 900 !important;
 }
@@ -57,7 +59,7 @@ body {
 }
 
 #welcome {
-    font-family: 'Bahnschrift';
+    font-family: 'Bahnschrift', sans-serif;
     font-style: normal;
     text-transform: uppercase;
     font-size: 35px;
@@ -82,7 +84,7 @@ body {
     -webkit-transition: ease-out 0.5s;
     -moz-transition: ease-out 0.5s;
     transition: ease-out 0.5s;
-    font-family: 'Bahnschrift', cursive;
+    font-family: 'Bahnschrift', sans-serif;
 }
 
 #button:hover {
@@ -120,7 +122,7 @@ body {
 }
 
 #overview h2 {
-    font-family: 'Bahnschrift', cursive;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 36px;
     letter-spacing: 1.2px;
     color: navajowhite;
@@ -128,7 +130,7 @@ body {
 
 #overview h3 {
     margin-top: -0.5px;
-    font-family: 'Bahnschrift', cursive;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 18px;
     letter-spacing: 3.5px;
     color: grey;
@@ -179,7 +181,7 @@ grey {
 }
 
 #dev-header {
-    font-family: 'Bahnschrift', cursive;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 38px;
     font-style: italic;
     font-weight: 900 !important;
@@ -207,7 +209,7 @@ grey {
 /* BOOK ME Section ------------------------------------- */
 
 #book-title {
-    font-family: 'Bahnschrift', cursive;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 72px;
     display: block;
     margin: 0px;
@@ -229,7 +231,7 @@ grey {
 }
 
 #theprice {
-    font-family: 'Bahnschrift', cursive;
+    font-family: 'Bahnschrift', sans-serif;
     background-color: white;
     margin: 0 auto;
     width: 70%;
@@ -271,7 +273,7 @@ grey {
 }
 
 #book-number {
-    font-family: 'Bahnschrift', cursive;
+    font-family: 'Bahnschrift', sans-serif;
     font-style: normal;
     font-weight: 700;
     text-align: center;
@@ -289,7 +291,7 @@ grey {
 }
 
 #sessions h4 {
-    font-family: 'Bahnschrift', cursive;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 48px;
     color: white;
 }
@@ -305,7 +307,7 @@ footer {
 }
 
 #follow-me h2 {
-    font-family: 'Bahnschrift', cursive;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 42px;
 }
 

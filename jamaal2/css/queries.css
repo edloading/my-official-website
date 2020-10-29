@@ -61,6 +61,19 @@
         padding-left: 20px !important;
         padding-right: 20px !important;
     }
+    
+    /* Remove nav menu and center nav-logo in header */
+    .navbar-header button {
+        display: none;
+    }
+    
+    #nav-title {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 @media only screen and (max-width: 553px) {

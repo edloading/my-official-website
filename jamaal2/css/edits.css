@@ -122,7 +122,7 @@ body {
 }
 
 #overview td:last-child {
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 #overview h2 {
@@ -199,6 +199,12 @@ grey {
 #vid-gal video {
     width: 33%;
     height: 217px;
+    margin: 0 auto;
+    border: 6px solid #212121;
+}
+
+#vid-gal img {
+    width: 33%;
     margin: 0 auto;
     border: 6px solid #212121;
 }

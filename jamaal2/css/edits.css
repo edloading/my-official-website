@@ -306,6 +306,11 @@ grey {
     color: white;
 }
 
+.formFooter {
+    background-color: red !important;
+    display: none !important;
+}
+
 /* FOOTER Section ------------------------------------- */
 footer {
     background-color: #212121 !important;
